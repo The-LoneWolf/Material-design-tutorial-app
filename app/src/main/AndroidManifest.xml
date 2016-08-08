@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ButtonActivity"></activity>
+        <activity android:name=".RaisedButtonActivity" />
+        <activity android:name=".FlatButtonActivity"></activity>
     </application>
 
 </manifest>

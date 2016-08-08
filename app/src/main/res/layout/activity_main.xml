@@ -7,11 +7,19 @@
     tools:context="ir.technopedia.materialdesigntutorials.MainActivity">
 
     <Button
-        android:id="@+id/btn_button"
+        android:id="@+id/btn_raised_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="4dp"
         android:padding="8dp"
-        android:text="Button Lesson" />
+        android:text="Raised Button Lesson" />
+
+    <Button
+        android:id="@+id/btn_flat_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="Flat Button Lesson" />
 
 </LinearLayout>
