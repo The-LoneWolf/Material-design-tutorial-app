@@ -4,9 +4,9 @@ This is an application created by http://varchar.ir in material design tutorials
 ##Lessons List
 
 1. Buttons 
-* Raised button
-* Flat button
-* Floating Action Button
+⋅⋅* Raised button
+⋅⋅* Flat button
+⋅⋅* Floating Action Button
 2. Bottom sheets
 3. Cards
 4. Dialogs 
