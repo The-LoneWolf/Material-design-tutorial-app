@@ -3,15 +3,23 @@ This is an application created by http://varchar.ir in material design tutorials
 
 ##Lessons List
 
-1. Buttons 
-⋅⋅* Raised button
-⋅⋅* Flat button
-⋅⋅* Floating Action Button
-2. Bottom sheets
-3. Cards
-4. Dialogs 
-* Alerts
-* Confirmation dialogs
-...
-
+<ol> Buttons 
+<li>
+<ul>
+ <li>Raised button</li>
+ <li>Flat button</li>
+ <li>Floating Action Button</li>
+ </ul>
+</li>
+<li>bottom sheets</li>
+<li>Cards</li>
+<li>Dialogs</li> 
+</li>
+<ul>
+<li>Alerts</li>
+<li>Confirmation dialogs</li>
+</ul>
+</li>
+<li>...</li>
+</ol>
 Tutorial and codes are written by <a href="http://mgarebaghi.ir">Mehrdad Garebaghi</a>
