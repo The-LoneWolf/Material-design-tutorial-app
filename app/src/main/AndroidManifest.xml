@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RaisedButtonActivity" />
-        <activity android:name=".FlatButtonActivity"></activity>
+        <activity android:name=".FlatButtonActivity" />
+        <activity android:name=".FloatingActionButtonActivity"></activity>
     </application>
 
 </manifest>

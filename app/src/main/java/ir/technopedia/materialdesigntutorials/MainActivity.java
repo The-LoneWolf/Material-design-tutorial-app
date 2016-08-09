@@ -1,6 +1,7 @@
 package ir.technopedia.materialdesigntutorials;
 
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnRaisedButton, btnFlatButton;
+    Button btnRaisedButton, btnFlatButton, btnFab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnRaisedButton.setOnClickListener(this);
         btnFlatButton = (Button) findViewById(R.id.btn_flat_button);
         btnFlatButton.setOnClickListener(this);
+        btnFab = (Button) findViewById(R.id.btn_fab);
+        btnFab.setOnClickListener(this);
     }
 
     @Override
@@ -29,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(getBaseContext(), RaisedButtonActivity.class));
         } else if (id == R.id.btn_flat_button) {
             startActivity(new Intent(getBaseContext(), FlatButtonActivity.class));
+        } else if (id == R.id.btn_fab) {
+            startActivity(new Intent(getBaseContext(), FloatingActionButtonActivity.class));
         }
     }
 }
