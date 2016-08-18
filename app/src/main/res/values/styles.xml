@@ -29,4 +29,13 @@
         <item name="cardBackgroundColor">@color/material_indigo_500</item>
     </style>
 
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/material_pink_500</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/alert_dialog_drawable</item>
+    </style>
+
 </resources>

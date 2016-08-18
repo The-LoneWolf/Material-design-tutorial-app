@@ -19,6 +19,7 @@
         <activity android:name=".FlatButtonActivity" />
         <activity android:name=".FloatingActionButtonActivity" />
         <activity android:name=".CardActivity" />
+        <activity android:name=".AlertDialogActivity"></activity>
     </application>
 
 </manifest>

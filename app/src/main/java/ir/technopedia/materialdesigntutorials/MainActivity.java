@@ -8,7 +8,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnRaisedButton, btnFlatButton, btnFab, btnCardView;
+    Button btnRaisedButton, btnFlatButton, btnFab, btnCardView,
+            btnAlertDialogButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnFab.setOnClickListener(this);
         btnCardView = (Button) findViewById(R.id.btn_card_activity);
         btnCardView.setOnClickListener(this);
+        btnAlertDialogButton = (Button) findViewById(R.id.btn_alert_dialog_activity);
+        btnAlertDialogButton.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(getBaseContext(), FloatingActionButtonActivity.class));
         } else if (id == R.id.btn_card_activity) {
             startActivity(new Intent(getBaseContext(), CardActivity.class));
+        } else if (id == R.id.btn_alert_dialog_activity) {
+            startActivity(new Intent(getBaseContext(), AlertDialogActivity.class));
         }
     }
 }
