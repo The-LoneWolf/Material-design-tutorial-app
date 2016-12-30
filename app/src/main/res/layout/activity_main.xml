@@ -46,4 +46,12 @@
         android:padding="8dp"
         android:text="Alert Dialogs Lesson" />
 
+    <Button
+        android:id="@+id/btn_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="Bottom Navigation View" />
+
 </LinearLayout>

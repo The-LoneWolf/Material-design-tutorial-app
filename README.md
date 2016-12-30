@@ -19,6 +19,7 @@ This is an application created by http://varchar.ir in material design tutorials
 <li>Confirmation dialogs</li>
 </ul>
 </li>
+<li>Bottom Navigation View</li>
 <li>...</li>
 </ol>
 
